@@ -1,0 +1,62 @@
+h1,h2,h3,h4,h5,h6,a {
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: CircularRegular;
+    src: url('../fonts/regular.ttf');
+}
+
+@font-face {
+    font-family: CircularBold;
+    src: url('../fonts/bold.ttf');
+}
+
+@font-face {
+    font-family: CircularMedium;
+    src: url('../fonts/medium.ttf');
+}
+
+$white: #fefefe;
+$black: #161616;
+$lightGrey: #B5B5B5;
+$darkGrey: #8A8A8A;
+$mediumFont: 'CircularMedium', 'sans-serif';
+$regularFont: 'CircularRegular', 'sans-serif';
+$boldFont: 'CircularBold', 'sans-serif';
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+
+@media only screen and (max-width: 650px) {
+
+
+}
+
+
+
+
+@media only screen and (min-width: 650px) and (max-width: 1050px) {
+
+
+}
+
+
+
+@media only screen and (min-width: 1050px) {
+
+
+}
